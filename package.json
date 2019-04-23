@@ -1,0 +1,27 @@
+{
+  "name": "maintenance-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-dev src/app.js",
+    "package":"pkg src/app.js --output=dist/app --targets=node10-macos-x64",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LameLoura/maintenance-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LameLoura/maintenance-page/issues"
+  },
+  "homepage": "https://github.com/LameLoura/maintenance-page#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "node-dev": "^4.0.0",
+    "pkg": "^4.3.7"
+  }
+}
